@@ -25,5 +25,4 @@
 - **Database**: MySQL
 - **Version Control**: Git & GitHub
 
-## 📂 Project Structure
 
