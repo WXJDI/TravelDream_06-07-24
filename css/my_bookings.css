@@ -1,0 +1,79 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header */
+  header {
+    background-color: #1e2a3a;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo-link {
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Main Section */
+  .my-bookings-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-bookings-container h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .reservations-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .reservations-table th, .reservations-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .reservations-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .reservations-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1e2a3a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 16px;
+  }
+  
